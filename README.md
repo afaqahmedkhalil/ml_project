@@ -62,21 +62,25 @@ Step 7: Install "diffusers" using "pip" while the "text2pic" environment is acti
 Step 8: Now OPEN Jupyter Notebook inside "text2pic" environment.
 
 
-## IMPORTANT:
-        If you want to generate image.
-        STEP-1.
-         Prompt: Type "text" inside string, what kind of image you want to generate.
-         Example: Prompt="make a picture of sleeping cat"
+## How to Generate Images:
+If you want to generate image.
+STEP-1.
+Prompt: Type "text" inside string, what kind of image you want to generate.
+
+Example: 
+       Prompt="make a picture of sleeping cat"
         
-        STEP-2.
-         Negative Prompt: Type "text" inside string, what you dont want in the scene.
-         Example: Negative Prompt= "avoid including any other animal in the scene."
+STEP-2.
+Negative Prompt: Type "text" inside string, what you dont want in the scene.
 
-        STEP-3.
-         Run the code. It will generate the image.
+Example:
+       negative_prompt= "avoid including any other animal in the scene."
 
-        Step-4.
-         to preview the image, run this code in the cell.
+STEP-3.
+Run the code. It will generate the image.
+
+Step-4.
+To preview the image, run this code in the cell.
           
           plt.imshow(images)
           plt.axis("off")
