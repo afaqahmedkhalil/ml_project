@@ -32,24 +32,30 @@ Step 2: Create and Activate Your Environment using code:
               "conda activate text2pic"
 
 Step 3: Install Jupyter Notebook in "text2pic" environment code:
+
            "conda install notebook -y" 
 
 Step 4(a): Install PyTorch with CUDA support (for GPU) code:
+
       "conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia"
 
       (b): Install PyTorch if you don't have a GPU (for CPU) code:
+      
              "conda install pytorch torchvision torchaudio cpuonly -c pytorch"
 
 Step 5: Install the diffusers library using pip:
+
               "pip install diffusers"
 
 Step 6: Install other required libraries using pip:
+
               "pip install transformers accelerate scipy"
 
 Step 7: Install "diffusers" using "pip" while the "text2pic" environment is active:
+
                "pip install diffusers"
 
-       [NOTE] if current installation "sympy" version is 1.13.3 and "torch" explicitly requires
+[NOTE] If current installation "sympy" version is 1.13.3 and "torch" explicitly requires
          "sympy" is version 1.13.1, then you should downgrade your sympy version to match
          the requirements.
 
