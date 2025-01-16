@@ -62,8 +62,9 @@ Step 7: Install "diffusers" using "pip" while the "text2pic" environment is acti
 Step 8: Now OPEN Jupyter Notebook inside "text2pic" environment.
 
 
-## How to Generate Images:
-If you want to generate image.
+## How to Generate Image:
+If you want to generate image:
+
 STEP-1.
 Prompt: Type "text" inside string, what kind of image you want to generate.
 
