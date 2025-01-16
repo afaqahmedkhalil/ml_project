@@ -39,7 +39,7 @@ Step 4(a): Install PyTorch with CUDA support (for GPU) code:
 
       "conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia"
 
-      (b): Install PyTorch if you don't have a GPU (for CPU) code:
+Step 4(b): Install PyTorch if you don't have a GPU (for CPU) code:
       
              "conda install pytorch torchvision torchaudio cpuonly -c pytorch"
 
