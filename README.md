@@ -52,15 +52,13 @@ Step 6: Install other required libraries using pip:
 
               "pip install transformers accelerate scipy"
 
-Step 7: Install "diffusers" using "pip" while the "text2pic" environment is active:
-
-               "pip install diffusers"
 
 [NOTE] If current installation "sympy" version is 1.13.3 and "torch" explicitly requires
          "sympy" is version 1.13.1, then you should downgrade your sympy version to match
          the requirements.
 
-Step 8: Now OPEN Jupyter Notebook inside "text2pic" environment.
+
+Step 7: Now OPEN Jupyter Notebook inside "text2pic" environment.
 
 
 ## How to Generate Image:
